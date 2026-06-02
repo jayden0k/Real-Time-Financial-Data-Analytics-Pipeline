@@ -1,0 +1,23 @@
+cat << 'EOF' > .gitignore
+# macOS junk
+._*
+.DS_Store
+
+# Python & Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment variables & local databases
+.env
+data/*.db
+data/*.sqlite
+
+# Misc artifacts
+._*
+{config,schemas,ingestion,processing,anomaly_detection,storage,common,tests}
+METADATA
+EOF
