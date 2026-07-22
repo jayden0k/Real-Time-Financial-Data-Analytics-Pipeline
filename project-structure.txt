@@ -1,0 +1,75 @@
+.
+├── README.md
+├── anomaly_detection
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── detector.cpython-312.pyc
+│   └── detector.py
+├── common
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── logging_config.cpython-312.pyc
+│   └── logging_config.py
+├── config
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── settings.cpython-312.pyc
+│   └── settings.py
+├── data
+│   └── market_data.db
+├── docker-compose.yml
+├── ingestion
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── kafka_producer.cpython-312.pyc
+│   │   ├── main.cpython-312.pyc
+│   │   └── websocket_client.cpython-312.pyc
+│   ├── kafka_producer.py
+│   ├── main.py
+│   └── websocket_client.py
+├── processing
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── kafka_consumer.cpython-312.pyc
+│   │   ├── main.cpython-312.pyc
+│   │   ├── normalizer.cpython-312.pyc
+│   │   └── sliding_window.cpython-312.pyc
+│   ├── kafka_consumer.py
+│   ├── main.py
+│   ├── normalizer.py
+│   └── sliding_window.py
+├── project-structure.txt
+├── pyproject.toml
+├── requirements.txt
+├── schemas
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── market_data.cpython-312.pyc
+│   └── market_data.py
+├── storage
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── db_writer.cpython-312.pyc
+│   │   └── models.cpython-312.pyc
+│   ├── db_writer.py
+│   └── models.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── conftest.cpython-312-pytest-8.3.3.pyc
+│   │   ├── test_anomaly_detection.cpython-312-pytest-8.3.3.pyc
+│   │   └── test_sliding_window.cpython-312-pytest-8.3.3.pyc
+│   ├── conftest.py
+│   ├── test_anomaly_detection.py
+│   └── test_sliding_window.py
+└── {config,schemas,ingestion,processing,anomaly_detection,storage,common,tests}
+
+19 directories, 54 files
